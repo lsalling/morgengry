@@ -1,0 +1,11 @@
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.exe
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.deps.json
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.runtimeconfig.json
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.runtimeconfig.dev.json
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.dll
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\bin\Debug\netcoreapp3.1\MorgenGry.pdb
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\obj\Debug\netcoreapp3.1\MorgenGry.csprojAssemblyReference.cache
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\obj\Debug\netcoreapp3.1\MorgenGry.AssemblyInfoInputs.cache
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\obj\Debug\netcoreapp3.1\MorgenGry.AssemblyInfo.cs
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\obj\Debug\netcoreapp3.1\MorgenGry.dll
+C:\Users\Lars\source\repos\MorgenGry\MorgenGry\obj\Debug\netcoreapp3.1\MorgenGry.pdb
