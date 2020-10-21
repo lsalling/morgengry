@@ -6,48 +6,38 @@ namespace MorgenGry
 {
     public class Controller
     {
-        private List<Book> books;
-        private List<Amulet> amulets;
-        private List<Course> courses;
+        private MerchandiseRepository merchandiseRepo;
+        private CourseRepository courseRepo;
 
-        public List<Book> Books
+        public MerchandiseRepository MerchandiseRepo
         {
-            get { return this.books; }
-            set { this.books = value; }
+            get { return this.merchandiseRepo; }
         }
 
-        public List<Amulet> Amulets
+        public CourseRepository CourseRepo
         {
-            get { return this.amulets; }
-            set { this.amulets = value; }
-        }
-
-        public List<Course> Courses
-        {
-            get { return this.courses; }
-            set { this.courses = value; }
+            get { return this.courseRepo; }
         }
 
         public Controller()
         {
-            books = new List<Book>();
-            amulets = new List<Amulet>();
-            courses = new List<Course>();
-        }
-
-        public void AddToList(Course course)
-        {
-            Courses.Add(course);
+            this.merchandiseRepo = new MerchandiseRepository();
+            this.courseRepo = new CourseRepository();
         }
 
         public void AddToList(Book book)
         {
-            Books.Add(book);
+            merchandiseRepo.AddMerchandise(book);
         }
 
         public void AddToList(Amulet amulet)
         {
-            Amulets.Add(amulet);
+            merchandiseRepo.AddMerchandise(amulet);
+        }
+
+        public void AddToList(Course course)
+        {
+            courseRepo.AddCourse(course);
         }
     }
 }

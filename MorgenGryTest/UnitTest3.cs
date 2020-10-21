@@ -49,24 +49,23 @@ namespace MorgenGryTest
         public void TestCourseList()
         {
             // Assert
-            Assert.AreEqual(c1, controller.Courses[0]);
-            Assert.AreEqual(c2, controller.Courses[1]);
+            Assert.AreEqual(c1, controller.CourseRepo.Courses[0]);
+            Assert.AreEqual(c2, controller.CourseRepo.Courses[1]);
         }
 
         [TestMethod]
         public void TestBookList()
         {
             // Assert
-            Assert.AreEqual(b3, controller.Books[2]);
+            Assert.AreEqual(b3, controller.MerchandiseRepo.Merchandise[2]);
         }
 
         [TestMethod]
         public void TestAmuletList()
         {
             // Assert
-            Assert.AreEqual(a1, controller.Amulets[0]);
+            Assert.AreEqual(a1, controller.MerchandiseRepo.Merchandise[3]);
         }
-
     }
 
 }

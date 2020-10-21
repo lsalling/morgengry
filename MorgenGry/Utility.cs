@@ -1,36 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace MorgenGry
 {
-    public class Utility
+    public static class Utility
     {
+        static double LowQualityValue;
+        static double MediumQualityValue;
+        static double HighQualityValue;
+        static double CourseHourValue;
+
+        static Utility()
+        {
+            LowQualityValue = 12.5;
+            MediumQualityValue = 20.0;
+            HighQualityValue = 27.5;
+            CourseHourValue = 875.0;
+        }
+
         public static double GetValueOfCourse(Course course)
         {
-            double COST_PER_HOUR = 875.00;
-            return Math.Ceiling((double)course.DurationInMinutes / 60) * COST_PER_HOUR;
+            return Math.Ceiling((double)course.DurationInMinutes / 60) * CourseHourValue;
         }
 
-        public static double GetValueOfBook(Book book)
+        public static double GetValueOfMerchandise(Merchandise merchandise)
         {
-            return book.Price;
-        }
-
-        public static double GetValueOfAmulet(Amulet amulet)
-        {
-            switch (amulet.Quality)
+            if(merchandise is Book)
             {
-                case Level.low:
-                    return 12.5;
-                case Level.medium:
-                    return 20;
-                case Level.high:
-                    return 27.5;
-                default:
-                    return 0.0;
+                Book book = merchandise as Book;
+                return book.Price;
             }
+
+            if(merchandise is Amulet)
+            {
+                Amulet amulet = merchandise as Amulet;
+                switch (amulet.Quality)
+                {
+                    case Level.low:
+                        return LowQualityValue;
+                    case Level.medium:
+                        return MediumQualityValue;
+                    case Level.high:
+                        return HighQualityValue;
+                    default:
+                        return 0.0;
+                }
+            }
+
+            return 0.00;
         }
     }
 }
