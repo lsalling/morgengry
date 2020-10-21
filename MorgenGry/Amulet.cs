@@ -4,45 +4,34 @@ using System.Text;
 
 namespace MorgenGry
 {
-    public class Amulet
+    public class Amulet : Merchandise
     {
-		private string itemId;
-		private string design;
-		private Level quality;
+        public Level Quality { get; set; }
 
-		public string ItemId
-		{
-			get { return itemId; }
-			set { itemId = value; }
-		}
-
-		public Level Quality
-		{
-			get { return quality; }
-			set { quality = value; }
-		}
-
-
-		public string Design
-		{
-			get { return design; }
-			set { design = value; }
-		}
+        public string Design { get; set; }
 
 		public Amulet(string itemId, Level quality, string design)
         {
-			this.itemId = itemId;
-			this.quality = quality;
-			this.design = design;
+			this.ItemId = itemId;
+			this.Quality = quality;
+			this.Design = design;
         }
 
-		public Amulet(string itemId, Level quality): this (itemId, quality, "") {} 
+		public Amulet(string itemId, Level quality)
+		{
+			this.ItemId = itemId;
+			this.Quality = quality;
+		} 
 
-		public Amulet(string itemId): this (itemId, Level.medium, "") {} 
+		public Amulet(string itemId)
+		{
+			this.ItemId = itemId;
+			this.Quality = Level.medium;
+		} 
 
 		public override string ToString()
 		{
-			return $"ItemId: {itemId}, Quality: {quality}, Design: {design}";
+			return $"ItemId: {ItemId}, Quality: {Quality}, Design: {Design}";
 		}
     }
 }

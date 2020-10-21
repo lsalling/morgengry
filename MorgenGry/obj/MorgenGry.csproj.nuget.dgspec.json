@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars\\source\\repos\\MorgenGry\\MorgenGry\\MorgenGry.csproj": {}
+    "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars\\source\\repos\\MorgenGry\\MorgenGry\\MorgenGry.csproj": {
+    "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars\\source\\repos\\MorgenGry\\MorgenGry\\MorgenGry.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj",
         "projectName": "MorgenGry",
-        "projectPath": "C:\\Users\\Lars\\source\\repos\\MorgenGry\\MorgenGry\\MorgenGry.csproj",
-        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars\\source\\repos\\MorgenGry\\MorgenGry\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

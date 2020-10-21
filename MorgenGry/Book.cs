@@ -4,45 +4,32 @@ using System.Text;
 
 namespace MorgenGry
 {
-    public class Book
+    public class Book : Merchandise
     {
-		private string itemId;
-		private string title;
-		private double price;
-
-		public string ItemId
-		{
-			get { return itemId; }
-			set { itemId = value; }
-		}
-
-		public double Price
-		{
-			get { return price; }
-			set { price = value; }
-		}
-
-
-		public string Title
-		{
-			get { return title; }
-			set { title = value; }
-		}
+        public double Price { get; set; }
+        public string Title { get; set; }
 
 		public Book(string itemId, string title, double price)
         {
-			this.itemId = itemId;
-			this.price = price;
-			this.title = title;
+			this.ItemId = itemId;
+			this.Price = price;
+			this.Title = title;
         }
 
-		public Book(string itemId, string title): this (itemId, title, 0) {} 
+		public Book(string itemId, string title)
+		{
+			this.ItemId = itemId;
+			this.Title = title;
+		} 
 
-		public Book(string itemId): this (itemId, "", 0) {} 
+		public Book(string itemId)
+		{
+			this.ItemId = itemId;
+		} 
 
 		public override string ToString()
 		{
-			return $"ItemId: {itemId}, Title: {title}, Price: {price}";
+			return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
 		}
 	}
 }
