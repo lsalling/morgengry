@@ -27,6 +27,11 @@ namespace MorgenGry
 			this.ItemId = itemId;
 		} 
 
+		public override double GetValue()
+        {
+			return this.Price;
+        }
+
 		public override string ToString()
 		{
 			return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
