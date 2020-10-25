@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj": {}
+    "C:\\xampp\\htdocs\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj": {
+    "C:\\xampp\\htdocs\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj",
         "projectName": "MorgenGryTest",
-        "projectPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGryTest2\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\morgengry\\MorgenGryTest2\\MorgenGryTest.csproj",
+        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\morgengry\\MorgenGryTest2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj": {
-                "projectPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj"
+              "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\MorgenGry.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\MorgenGry.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj": {
+    "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\MorgenGry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\MorgenGry.csproj",
         "projectName": "MorgenGry",
-        "projectPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\MorgenGry.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\source\\repos\\morgengry\\MorgenGry\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\MorgenGry.csproj",
+        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\morgengry\\MorgenGry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

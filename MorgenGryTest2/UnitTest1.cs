@@ -61,14 +61,14 @@ namespace MorgenGryTest
         public void CourseConstructorWithOneParameter()
         {
             // Assert
-            Assert.AreEqual("Name: Eufori med røg, Duration in Minutes: 0", c1.ToString());
+            Assert.AreEqual("Name: Eufori med røg, Duration in Minutes: 0, Pris pr påbegyndt time: 0", c1.ToString());
         }
 
         [TestMethod]
         public void CourseConstructorWithTwoParameters()
         {
             // Assert
-            Assert.AreEqual("Name: Nuru Massage using Chia Oil, Duration in Minutes: 157", c2.ToString());
+            Assert.AreEqual("Name: Nuru Massage using Chia Oil, Duration in Minutes: 157, Pris pr påbegyndt time: 2625", c2.ToString());
         }
 
         [TestMethod]
@@ -102,7 +102,7 @@ namespace MorgenGryTest
             c2.DurationInMinutes = 413;
 
             // Assert
-            Assert.AreEqual("Name: How to Ying-Yang, Duration in Minutes: 413", c2.ToString());
+            Assert.AreEqual("Name: How to Ying-Yang, Duration in Minutes: 413, Pris pr påbegyndt time: 6125", c2.ToString());
         }
     }
 }
